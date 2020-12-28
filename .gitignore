@@ -1,0 +1,12 @@
+/my-laravel-bbs/node_modules
+/my-laravel-bbs/public/hot
+/my-laravel-bbs/public/storage
+/my-laravel-bbs/storage/*.key
+/my-laravel-bbs/vendor
+/my-laravel-bbs/.env
+/my-laravel-bbs/.env.backup
+/my-laravel-bbs/.phpunit.result.cache
+/my-laravel-bbs/Homestead.json
+/my-laravel-bbs/Homestead.yaml
+/my-laravel-bbs/npm-debug.log
+/my-laravel-bbs/yarn-error.log
