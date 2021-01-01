@@ -15,13 +15,18 @@ https://qiita.com/juhn/items/274e44ee80354a39d872
 
 ### .envファイルは.gitignoreに含まれるので設定が必要
 DB_CONNECTION=mysql  
-DB_HOST=mysql-bbs //docker-compose.ymlのサービス名に揃える  
+DB_HOST=mysql-bbs 
 DB_PORT=3306  
 DB_DATABASE=sample  
 DB_USERNAME=user  
 DB_PASSWORD=password  
 
 ### DBへのデータ作成のために下記の実行は必要
-$ docker-compose exec app bash //appのサービス内に入る  
-$ composer dump-autoload  
+$ docker-compose up -d 
+$ docker-compose exec app bash //appのサービス内に入る 
+$ cd my-laravel-bbs/ 
+$ composer update –no-scripts あるいは composer install
+$ composer dump-autoload
+$ php artisan key:generate  
+$ php artisan migrate
 $ php artisan db:seed  
