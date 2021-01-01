@@ -15,7 +15,7 @@ https://qiita.com/juhn/items/274e44ee80354a39d872
 
 ### .envファイルは.gitignoreに含まれるので設定が必要
 DB_CONNECTION=mysql  
-DB_HOST=mysql-bbs 
+DB_HOST=mysql-bbs  
 DB_PORT=3306  
 DB_DATABASE=sample  
 DB_USERNAME=user  
