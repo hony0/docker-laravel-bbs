@@ -25,7 +25,7 @@ DB_PASSWORD=password
 $ docker-compose up -d  
 $ docker-compose exec app bash //appのサービス内に入る  
 $ cd my-laravel-bbs/  
-$ composer update –no-scripts あるいは composer install  
+$ composer install  
 $ composer dump-autoload  
 $ php artisan key:generate  
 $ php artisan migrate  
