@@ -8,7 +8,7 @@ https://tech.windii.jp/backend/laravel/laravel-with-docker-compose
 docker-compose.ymlの書き方について解説してみた  
 https://qiita.com/yuta-ushijima/items/d3d98177e1b28f736f04
 
-mysqlの永続化とmysql8を使う
+mysqlの永続化とmysql8を使う  
 https://qiita.com/juhn/items/274e44ee80354a39d872
 
 ## docker-compose up -d 後に必要な手順
