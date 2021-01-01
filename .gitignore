@@ -10,4 +10,4 @@
 /my-laravel-bbs/Homestead.yaml
 /my-laravel-bbs/npm-debug.log
 /my-laravel-bbs/yarn-error.log
-/db/data
+/db/mysql_data
