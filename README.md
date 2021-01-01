@@ -22,11 +22,11 @@ DB_USERNAME=user
 DB_PASSWORD=password  
 
 ### DBへのデータ作成のために下記の実行は必要
-$ docker-compose up -d 
-$ docker-compose exec app bash //appのサービス内に入る 
-$ cd my-laravel-bbs/ 
-$ composer update –no-scripts あるいは composer install
-$ composer dump-autoload
+$ docker-compose up -d  
+$ docker-compose exec app bash //appのサービス内に入る  
+$ cd my-laravel-bbs/  
+$ composer update –no-scripts あるいは composer install  
+$ composer dump-autoload  
 $ php artisan key:generate  
-$ php artisan migrate
+$ php artisan migrate  
 $ php artisan db:seed  
